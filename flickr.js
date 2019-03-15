@@ -5,9 +5,6 @@ var searchButton;
 var server = "http://api.flickr.com/services/rest";
 
 //http://www.flickr.com/services/api/explore/flickr.photos.search
-//flickr.photos.search APIを使う
-//per_pageというのは、何枚取得するか。
-//textというのは、指定するとテキストで検索をして写真を選んでくれる
 var method ="?method=flickr.photos.search&per_page=&text=";
 
 var apiKey = "a4293b4550f055230e0b335e5373594d";
